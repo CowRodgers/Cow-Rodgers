@@ -3698,6 +3698,7 @@ img#début {
 	bottom: 30px;
 	right: 3px;
 	opacity: 0.6;
+	z-index: 5 !important;
 }
 img#début:hover {
     background-color: #fd6c9e
