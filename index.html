@@ -203,7 +203,7 @@
 
         <!-- Copyright -->
         <section class="panel color2-alt">
-            <div class="copyright intro color0"> --- &copy; Régis Seigneur --- @ Cow Rodgers ---
+            <div class="copyright intro color0"> --- &copy; Régis Seigneur --- @ Cow Rodgers --- <span id="currentYear"></span>
                 
             </div>
         </section>
@@ -218,6 +218,13 @@
 <script src="assets/js/browser.min.js"></script>
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+      // Obtenir l'année actuelle
+      var currentYear = new Date().getFullYear();
+
+      // Mettre à jour le contenu de l'élément HTML avec l'année actuelle
+      document.getElementById('currentYear').textContent = currentYear;
+  </script>
 
 <!-- test bouton vers le haut -->
 <a href="#haut" ><img src="images/flèche-haut.avif" id="début"></a>
